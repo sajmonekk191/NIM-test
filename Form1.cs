@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace NIM_v1._0
@@ -74,7 +68,9 @@ namespace NIM_v1._0
         {
             hodnoty.sirky -= 1;
             sirkynum.Text = hodnoty.sirky.ToString();
-            System.Threading.Thread.Sleep(500);
+            sirka1btn.Enabled = false;
+            sirka2btn.Enabled = false;
+            sirka3btn.Enabled = false;
             EnemyTurn();
         }
 
@@ -82,7 +78,9 @@ namespace NIM_v1._0
         {
             hodnoty.sirky -= 2;
             sirkynum.Text = hodnoty.sirky.ToString();
-            System.Threading.Thread.Sleep(500);
+            sirka1btn.Enabled = false;
+            sirka2btn.Enabled = false;
+            sirka3btn.Enabled = false;
             EnemyTurn();
         }
 
@@ -90,14 +88,21 @@ namespace NIM_v1._0
         {
             hodnoty.sirky -= 3;
             sirkynum.Text = hodnoty.sirky.ToString();
-            System.Threading.Thread.Sleep(500);
+            sirka1btn.Enabled = false;
+            sirka2btn.Enabled = false;
+            sirka3btn.Enabled = false;
             EnemyTurn();
         }
 
         private void GameTimer_Tick(object sender, EventArgs e)
         {
-            if(hodnoty.sirky <= 0)
+            if(hodnoty.sirky < 1)
             {
+                gameoverlbl.Text = "You Lost !";
+                gameoverlbl.Visible = true;
+                GameTimer.Stop();
+                sirkynum.Text = "0";
+                hodnoty.Wait(1500);
                 EndGame();
             }
         }
@@ -131,13 +136,27 @@ namespace NIM_v1._0
         }
         private void EnemyTurn()
         {
-            if(hodnoty.Easy)
+            if(hodnoty.sirky >= 1) GameTimer.Stop();
+            else
+            {
+                gameoverlbl.Text = "You Lost !";
+                gameoverlbl.Visible = true;
+                GameTimer.Stop();
+                sirkynum.Text = "0";
+                hodnoty.Wait(1500);
+                EndGame();
+            }
+            hodnoty.Wait(300);
+            if (hodnoty.Easy)
             {
                 hodnoty.sirky -= rnd.Next(1, 3);
-                if(hodnoty.sirky <= 0)
+                if(hodnoty.sirky < 1)
                 {
                     gameoverlbl.Text = "You Win !";
                     gameoverlbl.Visible = true;
+                    sirkynum.Text = "0";
+                    hodnoty.Wait(1500);
+                    EndGame();
                 }
             }    
             else if(hodnoty.Medium)
@@ -146,33 +165,60 @@ namespace NIM_v1._0
                 selectvar = rnd.Next(0, 1);
                 if(selectvar == 1)
                 {
-                    if(hodnoty.sirky % 4 == 1)
+                    if (hodnoty.sirky == 4) hodnoty.sirky -= 3;
+                    else if (hodnoty.sirky == 3) hodnoty.sirky -= 2;
+                    else if (hodnoty.sirky == 2) hodnoty.sirky -= 1;
+                    else
                     {
-                        hodnoty.sirky -= 3;
-                        if (hodnoty.sirky <= 0)
+                        hodnoty.sirky -= rnd.Next(1, 3);
+                        if (hodnoty.sirky < 1)
                         {
                             gameoverlbl.Text = "You Win !";
                             gameoverlbl.Visible = true;
+                            sirkynum.Text = "0";
+                            hodnoty.Wait(1500);
+                            EndGame();
                         }
-                    }    
+                    }
                 }
                 else
                 {
                     hodnoty.sirky -= rnd.Next(1, 3);
-                    if (hodnoty.sirky <= 0)
+                    if (hodnoty.sirky < 1)
                     {
                         gameoverlbl.Text = "You Win !";
                         gameoverlbl.Visible = true;
+                        sirkynum.Text = "0";
+                        hodnoty.Wait(1500);
+                        EndGame();
                     }
 
                 }
             }
             else if(hodnoty.Hard)
             {
-
+                if (hodnoty.sirky == 4) hodnoty.sirky -= 3;
+                else if (hodnoty.sirky == 3) hodnoty.sirky -= 2;
+                else if(hodnoty.sirky == 2) hodnoty.sirky -= 1;
+                else
+                {
+                    hodnoty.sirky -= rnd.Next(1, 3);
+                    if (hodnoty.sirky <= 1)
+                    {
+                        gameoverlbl.Text = "You Win !";
+                        gameoverlbl.Visible = true;
+                        sirkynum.Text = "0";
+                        hodnoty.Wait(1500);
+                        EndGame();
+                    }
+                }
             }
-            System.Threading.Thread.Sleep(500);
+            hodnoty.Wait(400);
             sirkynum.Text = hodnoty.sirky.ToString();
+            sirka1btn.Enabled = true;
+            sirka2btn.Enabled = true;
+            sirka3btn.Enabled = true;
+            if(hodnoty.sirky > 1) GameTimer.Start();
         }
         private void SelectDiff()
         {
@@ -195,6 +241,7 @@ namespace NIM_v1._0
             Easybtn.Visible = true;
             Mediumbtn.Visible = true;
             hardbtn.Visible = true;
+            gameoverlbl.Visible = false;
         }
 
         private void Easybtn_Click(object sender, EventArgs e)

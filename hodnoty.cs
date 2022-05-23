@@ -1,6 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Threading;
+using System.Windows.Forms;
 
 namespace NIM_v1._0
 {
@@ -10,5 +9,15 @@ namespace NIM_v1._0
         public static bool Easy = false;
         public static bool Medium = false;
         public static bool Hard = false;
+        public static void Wait(int time)
+        {
+            Thread thread = new Thread(delegate ()
+            {
+                Thread.Sleep(time);
+            });
+            thread.Start();
+            while (thread.IsAlive)
+                Application.DoEvents();
+        }
     }
 }

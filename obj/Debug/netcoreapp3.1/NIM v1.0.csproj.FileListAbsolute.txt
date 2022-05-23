@@ -32,3 +32,37 @@ C:\Users\simon.novak\Desktop\NIM v1.0\obj\Debug\netcoreapp3.1\NIM v1.0.csproj.Co
 C:\Users\simon.novak\Desktop\NIM v1.0\obj\Debug\netcoreapp3.1\NIM v1.0.dll
 C:\Users\simon.novak\Desktop\NIM v1.0\obj\Debug\netcoreapp3.1\NIM v1.0.pdb
 C:\Users\simon.novak\Desktop\NIM v1.0\obj\Debug\netcoreapp3.1\NIM v1.0.genruntimeconfig.cache
+C:\Users\Root\AppData\Local\Temp\Rar$DRa3028.23833\NIM-test-main\bin\Debug\netcoreapp3.1\NIM v1.0.exe
+C:\Users\Root\AppData\Local\Temp\Rar$DRa3028.23833\NIM-test-main\bin\Debug\netcoreapp3.1\NIM v1.0.deps.json
+C:\Users\Root\AppData\Local\Temp\Rar$DRa3028.23833\NIM-test-main\bin\Debug\netcoreapp3.1\NIM v1.0.runtimeconfig.json
+C:\Users\Root\AppData\Local\Temp\Rar$DRa3028.23833\NIM-test-main\bin\Debug\netcoreapp3.1\NIM v1.0.runtimeconfig.dev.json
+C:\Users\Root\AppData\Local\Temp\Rar$DRa3028.23833\NIM-test-main\bin\Debug\netcoreapp3.1\NIM v1.0.dll
+C:\Users\Root\AppData\Local\Temp\Rar$DRa3028.23833\NIM-test-main\bin\Debug\netcoreapp3.1\NIM v1.0.pdb
+C:\Users\Root\AppData\Local\Temp\Rar$DRa3028.23833\NIM-test-main\obj\Debug\netcoreapp3.1\NIM v1.0.csproj.AssemblyReference.cache
+C:\Users\Root\AppData\Local\Temp\Rar$DRa3028.23833\NIM-test-main\obj\Debug\netcoreapp3.1\NIM_v1._0.Form1.resources
+C:\Users\Root\AppData\Local\Temp\Rar$DRa3028.23833\NIM-test-main\obj\Debug\netcoreapp3.1\NIM_v1._0.Properties.Resources.resources
+C:\Users\Root\AppData\Local\Temp\Rar$DRa3028.23833\NIM-test-main\obj\Debug\netcoreapp3.1\NIM v1.0.csproj.GenerateResource.cache
+C:\Users\Root\AppData\Local\Temp\Rar$DRa3028.23833\NIM-test-main\obj\Debug\netcoreapp3.1\NIM v1.0.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Root\AppData\Local\Temp\Rar$DRa3028.23833\NIM-test-main\obj\Debug\netcoreapp3.1\NIM v1.0.AssemblyInfoInputs.cache
+C:\Users\Root\AppData\Local\Temp\Rar$DRa3028.23833\NIM-test-main\obj\Debug\netcoreapp3.1\NIM v1.0.AssemblyInfo.cs
+C:\Users\Root\AppData\Local\Temp\Rar$DRa3028.23833\NIM-test-main\obj\Debug\netcoreapp3.1\NIM v1.0.csproj.CoreCompileInputs.cache
+C:\Users\Root\AppData\Local\Temp\Rar$DRa3028.23833\NIM-test-main\obj\Debug\netcoreapp3.1\NIM v1.0.dll
+C:\Users\Root\AppData\Local\Temp\Rar$DRa3028.23833\NIM-test-main\obj\Debug\netcoreapp3.1\NIM v1.0.pdb
+C:\Users\Root\AppData\Local\Temp\Rar$DRa3028.23833\NIM-test-main\obj\Debug\netcoreapp3.1\NIM v1.0.genruntimeconfig.cache
+C:\Users\Root\Desktop\NIM-test-main\bin\Debug\netcoreapp3.1\NIM v1.0.exe
+C:\Users\Root\Desktop\NIM-test-main\bin\Debug\netcoreapp3.1\NIM v1.0.deps.json
+C:\Users\Root\Desktop\NIM-test-main\bin\Debug\netcoreapp3.1\NIM v1.0.runtimeconfig.json
+C:\Users\Root\Desktop\NIM-test-main\bin\Debug\netcoreapp3.1\NIM v1.0.runtimeconfig.dev.json
+C:\Users\Root\Desktop\NIM-test-main\bin\Debug\netcoreapp3.1\NIM v1.0.dll
+C:\Users\Root\Desktop\NIM-test-main\bin\Debug\netcoreapp3.1\NIM v1.0.pdb
+C:\Users\Root\Desktop\NIM-test-main\obj\Debug\netcoreapp3.1\NIM v1.0.csproj.AssemblyReference.cache
+C:\Users\Root\Desktop\NIM-test-main\obj\Debug\netcoreapp3.1\NIM_v1._0.Form1.resources
+C:\Users\Root\Desktop\NIM-test-main\obj\Debug\netcoreapp3.1\NIM_v1._0.Properties.Resources.resources
+C:\Users\Root\Desktop\NIM-test-main\obj\Debug\netcoreapp3.1\NIM v1.0.csproj.GenerateResource.cache
+C:\Users\Root\Desktop\NIM-test-main\obj\Debug\netcoreapp3.1\NIM v1.0.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Root\Desktop\NIM-test-main\obj\Debug\netcoreapp3.1\NIM v1.0.AssemblyInfoInputs.cache
+C:\Users\Root\Desktop\NIM-test-main\obj\Debug\netcoreapp3.1\NIM v1.0.AssemblyInfo.cs
+C:\Users\Root\Desktop\NIM-test-main\obj\Debug\netcoreapp3.1\NIM v1.0.csproj.CoreCompileInputs.cache
+C:\Users\Root\Desktop\NIM-test-main\obj\Debug\netcoreapp3.1\NIM v1.0.dll
+C:\Users\Root\Desktop\NIM-test-main\obj\Debug\netcoreapp3.1\NIM v1.0.pdb
+C:\Users\Root\Desktop\NIM-test-main\obj\Debug\netcoreapp3.1\NIM v1.0.genruntimeconfig.cache

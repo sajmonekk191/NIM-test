@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.sirkyhodnotalbl = new System.Windows.Forms.Label();
             this.sirkynum = new System.Windows.Forms.Label();
             this.sirkymaxpb = new System.Windows.Forms.PictureBox();
@@ -78,7 +77,7 @@
             // sirkymaxpb
             // 
             this.sirkymaxpb.BackColor = System.Drawing.Color.Transparent;
-            this.sirkymaxpb.Image = ((System.Drawing.Image)(resources.GetObject("sirkymaxpb.Image")));
+            this.sirkymaxpb.Image = global::NIM_v1._0.Properties.Resources.MatchBox;
             this.sirkymaxpb.Location = new System.Drawing.Point(186, 73);
             this.sirkymaxpb.Name = "sirkymaxpb";
             this.sirkymaxpb.Size = new System.Drawing.Size(122, 108);
@@ -119,7 +118,7 @@
             // sirka1pb
             // 
             this.sirka1pb.BackColor = System.Drawing.Color.Transparent;
-            this.sirka1pb.Image = ((System.Drawing.Image)(resources.GetObject("sirka1pb.Image")));
+            this.sirka1pb.Image = global::NIM_v1._0.Properties.Resources.Sirky1;
             this.sirka1pb.Location = new System.Drawing.Point(88, 338);
             this.sirka1pb.Name = "sirka1pb";
             this.sirka1pb.Size = new System.Drawing.Size(80, 78);
@@ -130,7 +129,7 @@
             // sirka2pb
             // 
             this.sirka2pb.BackColor = System.Drawing.Color.Transparent;
-            this.sirka2pb.Image = ((System.Drawing.Image)(resources.GetObject("sirka2pb.Image")));
+            this.sirka2pb.Image = global::NIM_v1._0.Properties.Resources.Sirky2;
             this.sirka2pb.Location = new System.Drawing.Point(208, 338);
             this.sirka2pb.Name = "sirka2pb";
             this.sirka2pb.Size = new System.Drawing.Size(80, 78);
@@ -141,7 +140,7 @@
             // sirka3pb
             // 
             this.sirka3pb.BackColor = System.Drawing.Color.Transparent;
-            this.sirka3pb.Image = ((System.Drawing.Image)(resources.GetObject("sirka3pb.Image")));
+            this.sirka3pb.Image = global::NIM_v1._0.Properties.Resources.Sirky3;
             this.sirka3pb.Location = new System.Drawing.Point(325, 341);
             this.sirka3pb.Name = "sirka3pb";
             this.sirka3pb.Size = new System.Drawing.Size(80, 78);
@@ -171,7 +170,7 @@
             // 
             // GameTimer
             // 
-            this.GameTimer.Interval = 5;
+            this.GameTimer.Interval = 1;
             this.GameTimer.Tick += new System.EventHandler(this.GameTimer_Tick);
             // 
             // exitlbl
@@ -190,8 +189,8 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Image = global::NIM_v1._0.Properties.Resources.MatchBox;
+            this.pictureBox1.Location = new System.Drawing.Point(5, 5);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(24, 24);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -201,10 +200,10 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(28, 7);
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(32, 11);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(36, 11);
+            this.label1.Size = new System.Drawing.Size(44, 12);
             this.label1.TabIndex = 13;
             this.label1.Text = "NIM v1.0";
             // 
@@ -242,7 +241,7 @@
             // 
             this.gameoverlbl.AutoSize = true;
             this.gameoverlbl.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.gameoverlbl.Location = new System.Drawing.Point(172, 166);
+            this.gameoverlbl.Location = new System.Drawing.Point(181, 166);
             this.gameoverlbl.Name = "gameoverlbl";
             this.gameoverlbl.Size = new System.Drawing.Size(150, 37);
             this.gameoverlbl.TabIndex = 17;
