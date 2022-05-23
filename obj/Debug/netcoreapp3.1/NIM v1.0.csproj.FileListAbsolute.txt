@@ -1,0 +1,34 @@
+C:\Users\simon.novak\source\repos\NIM v1.0\bin\Debug\netcoreapp3.1\NIM v1.0.exe
+C:\Users\simon.novak\source\repos\NIM v1.0\bin\Debug\netcoreapp3.1\NIM v1.0.deps.json
+C:\Users\simon.novak\source\repos\NIM v1.0\bin\Debug\netcoreapp3.1\NIM v1.0.runtimeconfig.json
+C:\Users\simon.novak\source\repos\NIM v1.0\bin\Debug\netcoreapp3.1\NIM v1.0.runtimeconfig.dev.json
+C:\Users\simon.novak\source\repos\NIM v1.0\bin\Debug\netcoreapp3.1\NIM v1.0.dll
+C:\Users\simon.novak\source\repos\NIM v1.0\bin\Debug\netcoreapp3.1\NIM v1.0.pdb
+C:\Users\simon.novak\source\repos\NIM v1.0\obj\Debug\netcoreapp3.1\NIM v1.0.csproj.AssemblyReference.cache
+C:\Users\simon.novak\source\repos\NIM v1.0\obj\Debug\netcoreapp3.1\NIM_v1._0.Form1.resources
+C:\Users\simon.novak\source\repos\NIM v1.0\obj\Debug\netcoreapp3.1\NIM_v1._0.Properties.Resources.resources
+C:\Users\simon.novak\source\repos\NIM v1.0\obj\Debug\netcoreapp3.1\NIM v1.0.csproj.GenerateResource.cache
+C:\Users\simon.novak\source\repos\NIM v1.0\obj\Debug\netcoreapp3.1\NIM v1.0.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\simon.novak\source\repos\NIM v1.0\obj\Debug\netcoreapp3.1\NIM v1.0.AssemblyInfoInputs.cache
+C:\Users\simon.novak\source\repos\NIM v1.0\obj\Debug\netcoreapp3.1\NIM v1.0.AssemblyInfo.cs
+C:\Users\simon.novak\source\repos\NIM v1.0\obj\Debug\netcoreapp3.1\NIM v1.0.csproj.CoreCompileInputs.cache
+C:\Users\simon.novak\source\repos\NIM v1.0\obj\Debug\netcoreapp3.1\NIM v1.0.dll
+C:\Users\simon.novak\source\repos\NIM v1.0\obj\Debug\netcoreapp3.1\NIM v1.0.pdb
+C:\Users\simon.novak\source\repos\NIM v1.0\obj\Debug\netcoreapp3.1\NIM v1.0.genruntimeconfig.cache
+C:\Users\simon.novak\Desktop\NIM v1.0\bin\Debug\netcoreapp3.1\NIM v1.0.exe
+C:\Users\simon.novak\Desktop\NIM v1.0\bin\Debug\netcoreapp3.1\NIM v1.0.deps.json
+C:\Users\simon.novak\Desktop\NIM v1.0\bin\Debug\netcoreapp3.1\NIM v1.0.runtimeconfig.json
+C:\Users\simon.novak\Desktop\NIM v1.0\bin\Debug\netcoreapp3.1\NIM v1.0.runtimeconfig.dev.json
+C:\Users\simon.novak\Desktop\NIM v1.0\bin\Debug\netcoreapp3.1\NIM v1.0.dll
+C:\Users\simon.novak\Desktop\NIM v1.0\bin\Debug\netcoreapp3.1\NIM v1.0.pdb
+C:\Users\simon.novak\Desktop\NIM v1.0\obj\Debug\netcoreapp3.1\NIM v1.0.csproj.AssemblyReference.cache
+C:\Users\simon.novak\Desktop\NIM v1.0\obj\Debug\netcoreapp3.1\NIM_v1._0.Form1.resources
+C:\Users\simon.novak\Desktop\NIM v1.0\obj\Debug\netcoreapp3.1\NIM_v1._0.Properties.Resources.resources
+C:\Users\simon.novak\Desktop\NIM v1.0\obj\Debug\netcoreapp3.1\NIM v1.0.csproj.GenerateResource.cache
+C:\Users\simon.novak\Desktop\NIM v1.0\obj\Debug\netcoreapp3.1\NIM v1.0.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\simon.novak\Desktop\NIM v1.0\obj\Debug\netcoreapp3.1\NIM v1.0.AssemblyInfoInputs.cache
+C:\Users\simon.novak\Desktop\NIM v1.0\obj\Debug\netcoreapp3.1\NIM v1.0.AssemblyInfo.cs
+C:\Users\simon.novak\Desktop\NIM v1.0\obj\Debug\netcoreapp3.1\NIM v1.0.csproj.CoreCompileInputs.cache
+C:\Users\simon.novak\Desktop\NIM v1.0\obj\Debug\netcoreapp3.1\NIM v1.0.dll
+C:\Users\simon.novak\Desktop\NIM v1.0\obj\Debug\netcoreapp3.1\NIM v1.0.pdb
+C:\Users\simon.novak\Desktop\NIM v1.0\obj\Debug\netcoreapp3.1\NIM v1.0.genruntimeconfig.cache
